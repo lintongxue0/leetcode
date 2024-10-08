@@ -42,6 +42,7 @@ public class ReverseWords {
 
     public static void main(String[] args) {
         ReverseWords rw = new ReverseWords();
+        System.out.println("中文");
         System.out.println(rw.reverseWords("the sky is blue")); // "blue is sky the"
         System.out.println(rw.reverseWords("  hello world  ")); // "world hello"
         System.out.println(rw.reverseWords("a good   example")); // "example good a"
